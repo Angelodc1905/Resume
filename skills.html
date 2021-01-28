@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<meta http-equiv="X-UA-Compatible" content="ei=edge">
+	<title>Resume</title>
+</head>
+<body>
+	<nav>
+		<div class="logo">
+		<h4>My Resume</h4>
+	</div>
+	<ul class="nav-link">
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="information.html">Information</a></li>
+		<li><a href="Education.html">Education</a></li>
+		<li><a href="skills.html">Skills</a></li>
+	</ul>
+
+	<div class="three">
+		<div class="line1"></div>
+		<div class="line2"></div>
+		<div class="line3"></div>
+	</div>
+	</nav>
+<style>
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #12172b;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.skills-area {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30%;
+}
+
+.skill {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.skill-title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  height: 20px;
+  z-index: -1;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.skill-fill {
+  background: blue;
+  height: 20px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  overflow: hidden;
+}
+
+.skill-percent {
+  font-size: 20px;
+}
+
+.html {
+  animation: html 2s;
+  width: 75%;
+}
+
+.css {
+  animation: css 2s;
+  width: 80%;
+}
+
+.java {
+  animation: java 2s;
+  width: 78%;
+}
+
+.python {
+  animation: python 2s;
+  width: 70%;
+}
+
+@keyframes html {
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+
+@keyframes css {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes java {
+  from {
+    width: 0;
+  }
+  to {
+    width: 78%;
+  }
+}
+
+@keyframes python {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .skills-area {
+    padding: 0 5%;
+  }
+}
+
+
+}
+
+</style>
+	<h1 class="tech-skill">Technical Skills</h1>
+	<div class="skills-area">
+		<div class="skill">
+			<div class="skill-title">HTML</div>
+			<div class="skill-bar"></div>	
+			<div class="html skill-fill">
+				<span class="skill-percent">75%</span>
+			</div>
+		
+	</div>
+
+	<div class="skill">
+			<div class="skill-title">CSS</div>
+			<div class="skill-bar"></div>	
+			<div class="css skill-fill">
+				<span class="skill-percent">80%</span>
+			</div>
+		
+	</div>
+
+	<div class="skill">
+			<div class="skill-title">Java</div>
+			<div class="skill-bar"></div>	
+			<div class="java skill-fill">
+				<span class="skill-percent">78%</span>
+			</div>
+		
+	</div>
+
+	<div class="skill">
+			<div class="skill-title">Python</div>
+			<div class="skill-bar"></div>	
+			<div class="python skill-fill">
+				<span class="skill-percent">70%</span>
+			</div>
+		
+	</div>
+
+	</div>
+</body>
+</html>

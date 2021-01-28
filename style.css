@@ -1,0 +1,255 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: grey;
+	font-family: corbel;
+
+}
+
+.logo{
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 22px;
+	position: absolute;
+	left: 20px;
+	
+}
+
+.nav-link{
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+
+}
+
+.nav-link li{
+	list-style: none;
+}
+
+.nav-link a{
+	color: white;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 14px;
+
+	width: 250px;
+	display: block;
+	padding: 15px 15px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.nav-link a:hover{
+	background-color: #ddd;
+  	color: #18213b;
+  	  	transition-duration: .4s;
+
+}
+
+.three{
+	display: none;
+	cursor: pointer;
+}
+
+.three div{
+	width: 25px;
+	height: 3px;
+	background-color: white;
+	margin: 5px;
+	position: relative;
+	right: -200px;
+}
+
+@media screen and (max-width:1024px){
+	.nav-link{
+	width: 60%;
+	}
+}
+
+
+
+@media screen and (max-width:768px){
+	body{
+		overflow-x: hidden;
+	}
+	.nav-link{
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 8vh;
+		background-color: grey;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		transform: translateX(100%);
+	}
+	.nav-link li{
+		opacity: 0;
+	}
+	.three{
+		display: block;
+	}
+}
+
+
+/*-----------Information---------------------------------------*/
+
+.pers h1, h2{
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 65px;
+	font-family: "Poppins", sans-serif;
+}
+.pers p{
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 65px;
+	line-height: 2.5;
+	word-spacing: 2px;
+	font-family: "Poppins", sans-serif;
+
+}
+.img-resize{
+border-radius: 50%;
+position: relative;
+left: 610px;
+top: 40px;
+display: block;
+border:3px solid black; 
+
+
+}
+
+/*-----------Education---------------------------------------*/
+
+.school-img{
+	border-radius: 50%;
+position: relative;
+left: 650px;
+top: 70px;
+display: block;
+border:6px solid black; 
+}
+
+.pso-img{
+	border-radius: 50%;
+position: relative;
+left: 650px;
+top: 100px;
+display: block;
+border:6px solid black; 
+}
+
+.uc-img{
+	border-radius: 50%;
+position: relative;
+left: 650px;
+top: 130px;
+display: block;
+border:6px solid black; 
+}
+
+
+
+.container{
+width: 30%;
+position: relative;
+top: -200px;
+left:50px;
+display: grid;
+grid-template-rows: repeat(auto-fit,minmax(100px,1fr));
+grid-gap:20px;
+
+}
+
+.box{
+	height: 200px;
+	color: white;
+	border:2px solid #12172b;
+	position: relative;
+	top: -400px;
+	font-family: "Poppins", sans-serif;
+}
+
+.box1{
+	height: 200px;
+	color: white;
+	border:2px solid #12172b;
+	position: relative;
+	top: -400px;
+	font-family: "Poppins", sans-serif;
+}
+
+.box2{
+	height: 200px;
+	color: white;
+	border:2px solid #12172b;
+	position: relative;
+	top: -400px;
+	font-family: "Poppins", sans-serif;
+}
+
+
+
+.box h2{
+	position: absolute;
+	top: -50%;
+	left: 63%;
+}
+
+.box1 h2{
+	position: absolute;
+	top: -20%;
+	left: 62%;
+}
+
+.box2 h2{
+	position: absolute;
+	top: 10%;
+	left: 58%;
+}
+
+
+
+
+.container h2{
+	text-transform: uppercase;
+	font-family: "Poppins", sans-serif;
+	margin:0;
+	transform: translate(-50%);
+	line-height: 5;
+
+}
+
+
+
+.edu h1{
+	color: white;
+	text-align: center;
+	position: relative;
+	top: -125px;
+	left: 480px;
+	font-family: "Poppins", sans-serif;
+	transform: bold;
+}
+
+
+
